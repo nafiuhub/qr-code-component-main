@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+
+.pane {
+    background: hsl(0, 0%, 100%);
+    width: 340px;
+    text-align: center;
+    border-radius: 19px;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.box {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.message {
+    padding:0 12px 10px;
+}
+
+img {
+    width: 320px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 12px;
+    padding-top: 0;
+}
+
+p {
+    font-size: 1.8rem;
+    color: hsl(220, 15%, 55%);
+    padding: 0 6px;
+}
+
+@media screen and (min-width: 1024px) {
+    body { display: flex;
+    }
+
+    .pane {
+        width: 200px;
+        justify-content: center;
+    }
+
+    .box {
+        border-radius: 2px;
+        width: 200px;
+        margin-top: 0;
+    }
+
+    img {
+        border-radius: 6px;
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
